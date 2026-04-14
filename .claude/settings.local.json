@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:seojeongyun.creatorlink.net)",
+      "WebFetch(domain:www.behance.net)",
+      "Bash(python -m http.server 8080)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
