@@ -4,7 +4,8 @@
       "WebFetch(domain:seojeongyun.creatorlink.net)",
       "WebFetch(domain:www.behance.net)",
       "Bash(python -m http.server 8080)",
-      "mcp__Claude_Preview__preview_start"
+      "mcp__Claude_Preview__preview_start",
+      "Bash(ls -la \"C:/Users/office2700-7/Desktop/이윤지포폴/leeYunjiPhotofolio/img/thum\"*)"
     ]
   }
 }
