@@ -449,6 +449,7 @@ body {
     min-height: auto;
   }
   .hero-left {
+    flex: initial;
     padding-right: 0;
   }
   .hero-right {
