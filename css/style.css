@@ -172,10 +172,10 @@ body {
 }
 
 .bar .progress-line span {
+  display: block;
   height: 100%;
   width: 80%;
   background: var(--accent);
-  position: absolute;
   border-radius: 6px;
   transition: width 1s ease;
 }
@@ -445,7 +445,8 @@ body {
     justify-content: center;
     text-align: center;
     gap: 30px;
-    padding: 40px 0;
+    padding: 80px 0 40px;
+    min-height: auto;
   }
   .hero-left {
     padding-right: 0;
