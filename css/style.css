@@ -23,7 +23,7 @@ body {
 }
 
 /* ===== SECTION 0: HERO / ABOUT ===== */
-#section0 {
+.section-hero {
   background: var(--bg-cream);
 }
 
@@ -34,7 +34,7 @@ body {
   display: flex;
   align-items: center;
   gap: 60px;
-  height: 100%;
+  min-height: 100vh;
 }
 
 .hero-left {
@@ -186,6 +186,19 @@ body {
 .progress-line.HTML-CSS span { width: 50%; }
 .progress-line.javascript span { width: 30%; }
 
+/* ===== SECTION CONTENT ===== */
+.section-content {
+  padding: 100px 0 80px;
+}
+
+.section-cream {
+  background: var(--bg-cream);
+}
+
+.section-white {
+  background: var(--bg-white);
+}
+
 /* ===== SECTION TITLE AREA ===== */
 .section-title-area {
   width: 92%;
@@ -215,9 +228,6 @@ body {
 }
 
 /* ===== SECTION 1: WEB PROJECT ===== */
-#section1 {
-  background: var(--bg-white);
-}
 
 .web-grid {
   width: 92%;
@@ -324,14 +334,6 @@ body {
 }
 
 /* ===== SECTION 2-3: DESIGN GRID (2x2) ===== */
-#section2 {
-  background: var(--bg-cream);
-}
-
-#section3 {
-  background: var(--bg-white);
-}
-
 .design-grid {
   width: 92%;
   max-width: 1400px;
@@ -425,22 +427,6 @@ body {
 
 .design-card-overlay a:hover {
   background: var(--accent-hover);
-}
-
-/* ===== SECTION 4: WEBSITE DESIGN ===== */
-#section4 {
-  background: var(--bg-cream);
-}
-
-.website-showcase {
-  width: 92%;
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.design-card.wide {
-  height: 420px;
-  width: 100%;
 }
 
 /* ===== RESPONSIVE ===== */
