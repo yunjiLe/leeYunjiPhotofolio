@@ -429,6 +429,20 @@ body {
   background: var(--accent-hover);
 }
 
+/* ===== SECTION 4: BLOG SKIN ===== */
+.blog-grid {
+  width: 92%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.blog-grid .design-card {
+  height: 320px;
+}
+
 /* ===== RESPONSIVE ===== */
 @media all and (max-width: 1200px) {
   .hero-right {
@@ -480,6 +494,13 @@ body {
   .design-card {
     height: 280px;
   }
+  .blog-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  .blog-grid .design-card {
+    height: 240px;
+  }
   .section-number {
     font-size: 40px;
   }
@@ -517,6 +538,12 @@ body {
   }
   .design-card.wide {
     height: 300px;
+  }
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+  .blog-grid .design-card {
+    height: 220px;
   }
 }
 
